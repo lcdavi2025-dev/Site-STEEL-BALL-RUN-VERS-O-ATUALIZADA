@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Steel Ball Run</title>
+</head>
+<body>
+    <header>
+        <h1>Steel Ball Run Formulário de notificação</h1>
+        <p>Seja notificado pelo email quando sair um <mark>novo episódio</mark> do anime</p>
+        <p><abbr title="Steel Ball Run">SBR</abbr> - Parte 7 de JoJo's Bizarre Adventure</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="Pagina Principal.html">Início</a></li>
+            <li><a href="Personagens.html">Personagens</a></li>
+            <li><a href="musicas.html">Músicas</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Formulário de Notificação</h2>
+            
+            <article>
+                <h3>Status da Série</h3>
+                <p>Progresso de episódios lançados:</p>
+                <progress value="1" max="9"></progress>
+                <p>1 de 9 estágios disponíveis</p>
+            </article>
+            
+            <article>
+                <h3>Programação de Lançamentos</h3>
+                <p>Lançamento previsto: <time datetime="2026-9-25">25 de Setembro de 2026</time></p>
+            </article>
+            
+            <article>
+                <blockquote>
+                    "A Steel Ball Run é uma lendária corrida de cavalos que serve de enredo para a sétima parte da famosa série JoJo's Bizarre Adventure."
+                </blockquote>
+            </article>
+            
+            <article>
+                <form>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                        
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                        
+                        <label for="estagio">Estágio de Interesse no qual queira ser notificado ao sair um novo episódio:</label>
+                        <input type="text" id="estagio" name="estagio" list="estagios" placeholder="Escolha ou digite um estágio">
+                        <datalist id="estagios">
+                            <option value="Estágio 1">
+                            <option value="Estágio 2">
+                            <option value="Estágio 3">
+                            <option value="Estágio 4">
+                            <option value="Estágio 5">
+                            <option value="Estágio 6">
+                            <option value="Estágio 7">
+                            <option value="Estágio 8">
+                            <option value="Estágio 9">
+                            <option value="Todos">
+                        </datalist>
+                        
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Steel Ball Run</p>
+        <p>Email de contato: lcdavi2025@gmail.com</p>
+        <p>Site feito por: Davi Cavalcanti</p>
+    </footer>
+</body>
+</html>
